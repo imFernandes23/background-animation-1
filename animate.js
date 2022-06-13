@@ -1,17 +1,18 @@
-window.addEventListener('load', elements())
-let qtd = 100;
+let qtd = 200;
 let maxSize = 4;
 
 
 function elements(){
     const backGround =  document.getElementById('Bg')
-    for(let i = 0 ; i < 100; i++){
+    for(let i = 0 ; i < qtd; i++){
         const card = document.createElement('div')
         card.classList.add('card')
         backGround.appendChild(card)
     }
 
 }
+
+window.addEventListener('load', elements())
 
 function posiRandom(){
     let max = 60
