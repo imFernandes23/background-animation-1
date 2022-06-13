@@ -1,5 +1,5 @@
 let qtd = 200;
-let maxSize = 4;
+let maxSize = 5;
 
 
 function elements(){
