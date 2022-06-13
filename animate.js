@@ -29,5 +29,6 @@ function anime(){
     for(let i = 0;  i < qtd; i++){
         const element = document.getElementsByClassName('card')[i]
         element.style.transform = 'translate('+posiRandom()+'vw,'+posiRandom()+'vh) scale('+ sizeRandom(maxSize) +')'
+        element.style.opacity = 1
     }
 }
